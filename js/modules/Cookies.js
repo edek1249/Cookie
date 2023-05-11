@@ -14,6 +14,14 @@ export class Cookies{
     }
 
     setCookie(options){
+
+    }
+
+    getCookie(name) {
+
+    }
+
+    removeCookie(name) {
         
     }
 }
