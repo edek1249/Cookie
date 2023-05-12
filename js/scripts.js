@@ -1,4 +1,13 @@
-import { Cookies } from "./modules/Cookies.js";
+import { InfoCookies } from "./modules/InfoCookies.js";
 
-const test = new Cookies
+const infoCookies = new InfoCookies;
 
+const closeLink = document.querySelector('.close');
+
+closeLink.addEventListener('click',(event) => {
+
+    event.preventDefault();
+
+    infoCookies.setCookie();
+
+})
